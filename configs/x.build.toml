@@ -140,8 +140,8 @@ x11_symlinks = ["grab", "openhand"]
 
 [cursors.hand2]
 png = 'hand2.png'
-x_hotspot = 128
-y_hotspot = 113
+x_hotspot = 262
+y_hotspot = 102
 x11_name = 'hand2'
 win_name = 'Link'
 x11_symlinks = [

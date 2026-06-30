@@ -8,7 +8,7 @@ Before compiling the theme from source, you must install the native development 
 
 Open your terminal and run the following command to install the required packages on Fedora:
 
-```bash
+```Bash
 # 1. Install system development libraries, Node.js, and Yarn
 sudo dnf install libX11-devel libXcursor-devel libpng-devel nodejs yarn python3-pip
 
@@ -38,7 +38,7 @@ For next steps use the deploy.sh script by executing `chmod +x deploy.sh` then `
 
 or you can manually do next steps:
 
-```bash
+```Bash
 yarn render
 ./build.sh # depends where the build.sh is
 cp -r themes/BreezeX-Dark ~/.icons/

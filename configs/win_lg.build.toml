@@ -80,8 +80,8 @@ win_name = 'Handwriting'
 
 [cursors.question_arrow]
 png = 'question_arrow.png'
-x_hotspot = 109
-y_hotspot = 200
+x_hotspot = 7
+y_hotspot = 2
 win_name = 'Help'
 
 [cursors.right_ptr]

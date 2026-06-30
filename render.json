@@ -3,7 +3,7 @@
     "dir": "svg",
     "out": "bitmaps/BreezeX-Dark",
     "colors": [
-      { "match": "#00FF00", "replace": "#000000" },
+      { "match": "#00FF00", "replace": "#4D4D4D" }, 
       { "match": "#0000FF", "replace": "#FFFFFF" }
     ]
   },
@@ -11,7 +11,7 @@
     "dir": "svg",
     "out": "bitmaps/BreezeX-Black",
     "colors": [
-      { "match": "#00FF00", "replace": "#000000" },
+      { "match": "#00FF00", "replace": "#1E1E2E" },
       { "match": "#0000FF", "replace": "#FFFFFF" }
     ]
   },

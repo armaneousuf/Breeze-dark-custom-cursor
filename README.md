@@ -1,6 +1,6 @@
 # BreezeX Cursor
 
-A clone of the main reposotory [ful1e5](https://github.com/ful1e5/BreezeX_Cursor)
+A clone of the repository [ful1e5](https://github.com/ful1e5/BreezeX_Cursor)
 
 ## Prerequisites (Fedora KDE)
 

@@ -77,8 +77,8 @@ x11_name = 'context-menu'
 
 [cursors.copy]
 png = 'copy.png'
-x_hotspot = 69
-y_hotspot = 30
+x_hotspot = 4
+y_hotspot = 2
 x11_name = 'copy'
 x11_symlinks = [
   "1081e37283d90000800003c07f3ef6bf",
@@ -95,8 +95,8 @@ x11_symlinks = ["cross_reverse", "diamond_cross", "tcross", "crosshair"]
 
 [cursors.crossed_circle]
 png = 'crossed_circle.png'
-x_hotspot = 69
-y_hotspot = 30
+x_hotspot = 5
+y_hotspot = 5
 x11_name = 'crossed_circle'
 x11_symlinks = ["forbidden", "not-allowed"]
 
@@ -180,8 +180,8 @@ x11_name = 'left_side'
 
 [cursors.link]
 png = 'link.png'
-x_hotspot = 69
-y_hotspot = 30
+x_hotspot = 5
+y_hotspot = 5
 x11_name = 'link'
 x11_symlinks = [
   "3085a0e285430894940527032f8b26df",
@@ -193,8 +193,8 @@ x11_symlinks = [
 
 [cursors.move]
 png = 'move.png'
-x_hotspot = 141
-y_hotspot = 79
+x_hotspot = 5
+y_hotspot = 5
 x11_name = 'move'
 x11_symlinks = [
   "4498f0e0c1937ffe01fd06f973665830",

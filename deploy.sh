@@ -17,10 +17,10 @@ echo "🔨 [2/5] Building cursor theme..."
 ./build.sh
 
 echo "📂 [3/5] Copying to your local user folders..."
-cp -r themes/BreezeX-Dark ~/.icons/
+cp -r themes/BreezeX-Dark themes/BreezeX-Black ~/.icons/
 
 echo "🔒 [4/5] Copying to system folders (SDDM)..."
-sudo cp -r themes/BreezeX-Dark /usr/share/icons/
+sudo cp -r themes/BreezeX-Dark themes/BreezeX-Black /usr/share/icons/
 
 echo "🧹 [5/5] Clearing KDE icon cache..."
 rm -rf ~/.cache/icon-cache.kcache

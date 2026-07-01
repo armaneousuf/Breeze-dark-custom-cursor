@@ -1,5 +1,4 @@
 #!/bin/bash
-# A script for preparing binaries of BreezeX Cursors, created by Abdulkaiz Khatri.
 
 version="v2.0.1"
 
@@ -32,7 +31,7 @@ fi
 declare -A names
 names["BreezeX-Dark"]=$(with_version "Extended KDE Dark")
 names["BreezeX-Black"]=$(with_version "Extended KDE Black")
-names["BreezeX-Light"]=$(with_version "Extended KDE Light")
+# names["BreezeX-Light"]=$(with_version "Extended KDE Light")
 
 # Cleanup old builds
 rm -rf themes bin

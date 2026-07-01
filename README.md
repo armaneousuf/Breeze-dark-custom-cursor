@@ -52,185 +52,20 @@ Your login screen runs under a system user and cannot access your home folder (~
 
 ## Cursor Icons Gallery
 
-<div style="display: flex; flex-direction: column; gap: 10px; padding: 20px;">
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/X_cursor.svg" alt="X Cursor" title="X_cursor" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">X_cursor</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/all-scroll.svg" alt="All Scroll" title="all-scroll" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">all-scroll</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/bd_double_arrow.svg" alt="BD Double Arrow" title="bd_double_arrow" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">bd_double_arrow</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/bottom_left_corner.svg" alt="Bottom Left Corner" title="bottom_left_corner" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">bottom_left_corner</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/bottom_right_corner.svg" alt="Bottom Right Corner" title="bottom_right_corner" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">bottom_right_corner</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/bottom_side.svg" alt="Bottom Side" title="bottom_side" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">bottom_side</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/center_ptr.svg" alt="Center Ptr" title="center_ptr" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">center_ptr</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/col-resize.svg" alt="Col Resize" title="col-resize" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">col-resize</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/color-picker.svg" alt="Color Picker" title="color-picker" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">color-picker</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/context-menu.svg" alt="Context Menu" title="context-menu" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">context-menu</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/copy.svg" alt="Copy" title="copy" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">copy</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/cross.svg" alt="Cross" title="cross" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">cross</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/crossed_circle.svg" alt="Crossed Circle" title="crossed_circle" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">crossed_circle</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/dnd_no_drop.svg" alt="DND No Drop" title="dnd_no_drop" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">dnd_no_drop</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/dotbox.svg" alt="Dotbox" title="dotbox" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">dotbox</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/fd_double_arrow.svg" alt="FD Double Arrow" title="fd_double_arrow" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">fd_double_arrow</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/hand1.svg" alt="Hand 1" title="hand1" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">hand1</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/hand2.svg" alt="Hand 2" title="hand2" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">hand2</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/left_ptr.svg" alt="Left Ptr" title="left_ptr" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">left_ptr</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/left_side.svg" alt="Left Side" title="left_side" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">left_side</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/link.svg" alt="Link" title="link" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">link</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/move.svg" alt="Move" title="move" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">move</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/pencil.svg" alt="Pencil" title="pencil" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">pencil</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/person.svg" alt="Person" title="person" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">person</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/pin.svg" alt="Pin" title="pin" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">pin</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/pirate.svg" alt="Pirate" title="pirate" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">pirate</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/plus.svg" alt="Plus" title="plus" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">plus</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/question_arrow.svg" alt="Question Arrow" title="question_arrow" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">question_arrow</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/right_ptr.svg" alt="Right Ptr" title="right_ptr" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">right_ptr</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/right_side.svg" alt="Right Side" title="right_side" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">right_side</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/row-resize.svg" alt="Row Resize" title="row-resize" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">row-resize</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/sb_down_arrow.svg" alt="SB Down Arrow" title="sb_down_arrow" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">sb_down_arrow</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/sb_h_double_arrow.svg" alt="SB H Double Arrow" title="sb_h_double_arrow" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">sb_h_double_arrow</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/sb_left_arrow.svg" alt="SB Left Arrow" title="sb_left_arrow" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">sb_left_arrow</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/sb_right_arrow.svg" alt="SB Right Arrow" title="sb_right_arrow" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">sb_right_arrow</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/sb_up_arrow.svg" alt="SB Up Arrow" title="sb_up_arrow" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">sb_up_arrow</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/sb_v_double_arrow.svg" alt="SB V Double Arrow" title="sb_v_double_arrow" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">sb_v_double_arrow</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/top_left_corner.svg" alt="Top Left Corner" title="top_left_corner" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">top_left_corner</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/top_right_corner.svg" alt="Top Right Corner" title="top_right_corner" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">top_right_corner</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/top_side.svg" alt="Top Side" title="top_side" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">top_side</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/vertical-text.svg" alt="Vertical Text" title="vertical-text" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">vertical-text</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/wayland-cursor.svg" alt="Wayland Cursor" title="wayland-cursor" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">wayland-cursor</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/xterm.svg" alt="Xterm" title="xterm" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">xterm</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/zoom-in.svg" alt="Zoom In" title="zoom-in" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">zoom-in</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="svg/zoom-out.svg" alt="Zoom Out" title="zoom-out" width="64" height="64" style="border: 1px solid #ddd; padding: 5px; border-radius: 4px;"/>
-    <span style="font-size: 14px; font-weight: 500;">zoom-out</span>
-  </div>
-</div>
+| Icon | Name | Icon | Name | Icon | Name |
+|------|------|------|------|------|------|
+| ![X Cursor](svg/X_cursor.svg) | X_cursor | ![all-scroll](svg/all-scroll.svg) | all-scroll | ![bd_double_arrow](svg/bd_double_arrow.svg) | bd_double_arrow |
+| ![bottom_left_corner](svg/bottom_left_corner.svg) | bottom_left_corner | ![bottom_right_corner](svg/bottom_right_corner.svg) | bottom_right_corner | ![bottom_side](svg/bottom_side.svg) | bottom_side |
+| ![center_ptr](svg/center_ptr.svg) | center_ptr | ![col-resize](svg/col-resize.svg) | col-resize | ![color-picker](svg/color-picker.svg) | color-picker |
+| ![context-menu](svg/context-menu.svg) | context-menu | ![copy](svg/copy.svg) | copy | ![cross](svg/cross.svg) | cross |
+| ![crossed_circle](svg/crossed_circle.svg) | crossed_circle | ![dnd_no_drop](svg/dnd_no_drop.svg) | dnd_no_drop | ![dotbox](svg/dotbox.svg) | dotbox |
+| ![fd_double_arrow](svg/fd_double_arrow.svg) | fd_double_arrow | ![hand1](svg/hand1.svg) | hand1 | ![hand2](svg/hand2.svg) | hand2 |
+| ![left_ptr](svg/left_ptr.svg) | left_ptr | ![left_side](svg/left_side.svg) | left_side | ![link](svg/link.svg) | link |
+| ![move](svg/move.svg) | move | ![pencil](svg/pencil.svg) | pencil | ![person](svg/person.svg) | person |
+| ![pin](svg/pin.svg) | pin | ![pirate](svg/pirate.svg) | pirate | ![plus](svg/plus.svg) | plus |
+| ![question_arrow](svg/question_arrow.svg) | question_arrow | ![right_ptr](svg/right_ptr.svg) | right_ptr | ![right_side](svg/right_side.svg) | right_side |
+| ![row-resize](svg/row-resize.svg) | row-resize | ![sb_down_arrow](svg/sb_down_arrow.svg) | sb_down_arrow | ![sb_h_double_arrow](svg/sb_h_double_arrow.svg) | sb_h_double_arrow |
+| ![sb_left_arrow](svg/sb_left_arrow.svg) | sb_left_arrow | ![sb_right_arrow](svg/sb_right_arrow.svg) | sb_right_arrow | ![sb_up_arrow](svg/sb_up_arrow.svg) | sb_up_arrow |
+| ![sb_v_double_arrow](svg/sb_v_double_arrow.svg) | sb_v_double_arrow | ![top_left_corner](svg/top_left_corner.svg) | top_left_corner | ![top_right_corner](svg/top_right_corner.svg) | top_right_corner |
+| ![top_side](svg/top_side.svg) | top_side | ![vertical-text](svg/vertical-text.svg) | vertical-text | ![wayland-cursor](svg/wayland-cursor.svg) | wayland-cursor |
+| ![xterm](svg/xterm.svg) | xterm | ![zoom-in](svg/zoom-in.svg) | zoom-in | ![zoom-out](svg/zoom-out.svg) | zoom-out |

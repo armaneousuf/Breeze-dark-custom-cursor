@@ -31,7 +31,7 @@ fi
 declare -A names
 names["BreezeX-Dark"]=$(with_version "Extended KDE Dark")
 names["BreezeX-Black"]=$(with_version "Extended KDE Black")
-# names["BreezeX-Light"]=$(with_version "Extended KDE Light")
+names["BreezeX-Light"]=$(with_version "Extended KDE Light")
 
 # Cleanup old builds
 rm -rf themes bin

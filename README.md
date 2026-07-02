@@ -41,14 +41,39 @@ For next steps use the deploy.sh script by executing `chmod +x deploy.sh` then `
 
 > NOTE: deploy.sh won't be there by default. It's a script to automate the work so one have to create it or copy paste from this repo
 
-or you can manually do next steps:
+or you can manually do the following steps, **in this exact order**:
 
 ```Bash
-yarn render
-./build.sh # depends where the build.sh is
+yarn render                          # renders svg/ -> bitmaps/ (per-theme PNGs + colors)
+./build.sh                           # builds classic XCursor themes into themes/
+node scripts/generate-scalable.js    # generates Plasma-native SVG cursors (see below)
 cp -r themes/BreezeX-Dark ~/.icons/
 sudo cp -r themes/BreezeX-Dark /usr/share/icons/ # only needed if you need to change SDDM cursors too
 ```
+
+The order matters: `yarn render` has to run before the scalable-generation step, since it reads pixel dimensions from the rendered PNGs in `bitmaps/` to calculate correct cursor scaling. And the scalable-generation step has to run **after** `./build.sh`, not before — `build.sh` deletes and rebuilds the `themes/` directory from scratch every time, which would wipe out the scalable cursors if they existed already.
+
+## SVG Cursors (Plasma 6.2+) — Fixing Blurry Cursors at Large Sizes
+
+Plasma 6.2 introduced a second, parallel cursor format called `cursors_scalable`, which sits alongside the classic XCursor bitmap folder inside a theme. Instead of picking the nearest pre-rendered bitmap size and stretching it (which is what causes blur at fractional display scaling or unusual cursor sizes), Plasma renders the cursor straight from SVG at whatever exact pixel size it needs — no interpolation, no blur, ever.
+
+Full background and the on-disk format spec is here: [SVG cursors: everything that you need to know about them](https://blog.vladzahorodnii.com/2024/10/06/svg-cursors-everything-that-you-need-to-know-about-them/).
+
+This repo's XCursor build pipeline (`build.sh`, `configs/*.toml`) doesn't know anything about that format on its own — `scripts/generate-scalable.js` is what generates it, as a second, additive output next to `themes/<Theme>/cursors/`:
+
+```
+themes/BreezeX-Dark/
+├── cursors/              # classic XCursor bitmaps (unchanged, from build.sh)
+└── cursors_scalable/     # Plasma-native SVG cursors (new, from generate-scalable.js)
+```
+
+**What the script does:** it reads the same source files the XCursor pipeline already uses — `svg/*.svg`, `render.json` (for per-theme color variants), and `configs/x.build.toml` (for hotspots, cursor names, and alias symlinks) — and builds a `cursors_scalable/<name>/{metadata.json, *.svg}` folder per cursor shape, recoloring each SVG to match the target theme.
+
+**The one non-obvious gotcha, in case this ever needs debugging again:** each cursor's `metadata.json` needs a `nominal_size` value telling Plasma what pixel size the image represents. It's tempting to assume this should match the SVG's own `viewBox`, but it doesn't — it has to match the **actual pixel dimensions of the master PNG** that `clickgen` loads for that cursor in `bitmaps/<theme>/<cursor>.png` (confirmed directly from `clickgen`'s source, `parser/png.py`, which validates and scales hotspot coordinates against that file's real size). The two can differ per cursor — e.g. `left_ptr.svg`'s own `viewBox` is `16×16`, but its rendered master PNG is `257×257`. Using the wrong one makes every cursor render at a wildly incorrect size (too large, and it won't shrink no matter what size you pick in System Settings) — which is exactly the bug this script's `getNominalSize()` function exists to avoid, by reading the real PNG dimensions instead of guessing from the SVG.
+
+**Two cursors are intentionally excluded:** `wait` and `left_ptr_watch` are animated (60 frames each, in `svg/wait/` and `svg/left_ptr_watch/`) and are left as XCursor-only for now — they still work exactly as before, just without the vector-scaling benefit. Worth revisiting later if it becomes worth the added complexity.
+
+**Maintenance note:** if you add, rename, or re-hotspot a cursor in `configs/x.build.toml`, re-run `node scripts/generate-scalable.js` afterward (after `yarn render` and `./build.sh`) to keep `cursors_scalable` in sync — it isn't automatic.
 
 ## Login Screen (SDDM) Note
 
